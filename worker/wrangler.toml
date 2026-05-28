@@ -1,0 +1,20 @@
+name = "cloudflare_temp_email"
+main = "src/worker.ts"
+compatibility_date = "2025-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+keep_vars = true
+
+[vars]
+PREFIX = "tmp"
+DEFAULT_DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc"]
+DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc"]
+JWT_SECRET = "xxx"
+BLACK_LIST = ""
+ENABLE_USER_CREATE_EMAIL = true
+ENABLE_USER_DELETE_EMAIL = true
+ENABLE_AUTO_REPLY = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "xxx"
+database_id = "xxx"

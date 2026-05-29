@@ -6,8 +6,8 @@ keep_vars = true
 
 [vars]
 PREFIX = "tmp"
-DEFAULT_DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc"]
-DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc"]
+DEFAULT_DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc", "hujk.dpdns.org", "nid.dpdns.org", "kui.dpdns.org", "nbav.dpdns.org", "nink.dpdns.org", "din.dpdns.org", "linu.dpdns.org", "avs.dpdns.org", "ouek.dpdns.org", "ret.dpdns.org"]
+DOMAINS = ["ubdegins.ccwu.cc", "xun2api.ccwu.cc", "etemptatn.cc.cd", "etemptatn.ccwu.cc", "srafts.top", "nsadasn.dpdns.org", "posaeqt.dpdns.org", "soiahnfuiahewqqf.dpdns.org", "tinybug.ccwu.cc", "oijoiaeqq2.ccwu.cc", "hujk.dpdns.org", "nid.dpdns.org", "kui.dpdns.org", "nbav.dpdns.org", "nink.dpdns.org", "din.dpdns.org", "linu.dpdns.org", "avs.dpdns.org", "ouek.dpdns.org", "ret.dpdns.org"]
 JWT_SECRET = "xxx"
 BLACK_LIST = ""
 ENABLE_USER_CREATE_EMAIL = true
@@ -16,5 +16,5 @@ ENABLE_AUTO_REPLY = false
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xxx"
-database_id = "xxx"
+database_name = "cloudflare-temp-email"
+database_id = "031a8d81-60e6-4ca1-af39-1277c39f4b84"
